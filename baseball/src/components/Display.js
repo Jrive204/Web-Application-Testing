@@ -4,7 +4,7 @@ export default function Display(props) {
   return (
     <div className='Display'>
       <div>
-        <h2>You have this many Balls: {props.balls}</h2>
+        <h2 data-testid='Balls'>You have this many Balls: {props.balls}</h2>
         <h2>You have this many Strikes{props.strikes}</h2>
       </div>
       {/* <div>
